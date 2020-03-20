@@ -1,0 +1,22 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src -d dist && node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-decorators": "^7.8.3"
+  },
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-serve-decorator": "^1.1.3"
+  }
+}
